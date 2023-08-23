@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           .container {
+     max-width: 960px;
+     margin: 0 auto;
+   }
+
+   header, nav, section, footer {
+     padding: 20px;
+     background-color: #f2f2f2;
+   }
+
+   nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   }
+
+   nav li {
+     display: inline;
+     margin-right: 10px;
+   }
+
+   nav a {
+     text-decoration: none;
+     color: #333;
+   }
+
+    </style>
+</head>
+<body>
+    <script>
+           
+           document.querySelector('button').addEventListener('click', function() {
+     alert('Button clicked!');
+   });
+
+    </script>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+    <div class="container">
+        <header>
+          <h1>Wireframe Example</h1>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <section>
+          <h2>Main Content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <footer>
+          <p>&copy; 2023 My Website</p>
+        </footer>
+      </div>
+</body>
+</html>
